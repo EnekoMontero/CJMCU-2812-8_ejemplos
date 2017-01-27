@@ -13,3 +13,7 @@ Ejemplo de cómo hacer un fading desde el azul al rojo y viceversa. Usando PWM e
 
 ##4o ejemplo: Fading anterior pero con pulsador
 Ejemplo igual que el anterior pero según pulsamos un pulsador se van iluminando/apagando los leds de la tira.
+
+##5o ejemplo: Iluminar impresora 3D
+He añadido en la carpeta iluminacion_impresora3D los ficheros que he modificado de Marlin. No olvides activar en Configuration.h la parte correspondiente a la iluminación.
+Tutorial completo: <http://haudahau.com/vadedos/?p=1411>
