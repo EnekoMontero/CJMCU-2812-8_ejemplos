@@ -1,6 +1,6 @@
 #include <FastLED.h>
 #define NUM_LEDS 8
-#define DATA_PIN 3
+#define DATA_PIN A0
 #define t 200
 CRGB leds[NUM_LEDS];
 int red = 0, blue = 255;
@@ -27,7 +27,7 @@ void setup() {
          flag = true;
      }
      
-     for (int i=0; i<8; i++)
+     for (int i=0; i<NUM_LEDS; i++)
      {
         leds[i].r = red;
         leds[i].b = blue;
